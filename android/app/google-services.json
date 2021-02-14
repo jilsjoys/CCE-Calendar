@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "137096986906",
+    "firebase_url": "https://ccecalender-5c3fd-default-rtdb.firebaseio.com",
+    "project_id": "ccecalender-5c3fd",
+    "storage_bucket": "ccecalender-5c3fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:137096986906:android:d78f97045fef7cc7dd6ca3",
+        "android_client_info": {
+          "package_name": "com.example.CCEcalendar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "137096986906-vjdkejcesujvs2b1chqtltqfuvrmb0um.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJd6Pv70PChJ8iLvGREt4XUPxwYLdZ_oM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "137096986906-vjdkejcesujvs2b1chqtltqfuvrmb0um.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
