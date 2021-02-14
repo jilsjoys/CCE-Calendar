@@ -220,7 +220,13 @@ class _HomePageState extends State<HomePage> {
                               startingDayOfWeek: StartingDayOfWeek.monday,
                               onDaySelected: (date, events, holidays) {
                                 setState(() {
-                                  _selectedEvents = events;
+                                  _selectedEvents = events.isEmpty
+                                      ? [
+                                          EventModel(
+                                              title: "No Events",
+                                              description: "")
+                                        ]
+                                      : events;
                                 });
                               },
                               builders: CalendarBuilders(
@@ -277,6 +283,7 @@ class _HomePageState extends State<HomePage> {
                                           children: [
                                             Text(
                                               event.title,
+                                              // "oombi yaaay"
                                               style: TextStyle(
                                                 color: Colors.grey[700],
                                                 fontSize: 28,
