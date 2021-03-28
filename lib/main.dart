@@ -283,6 +283,7 @@ class _HomePageState extends State<HomePage> {
                                           children: [
                                             Text(
                                               event.title,
+                                              // "oombi yaaay"
                                               style: TextStyle(
                                                 color: Colors.grey[700],
                                                 fontSize: 28,
