@@ -220,7 +220,13 @@ class _HomePageState extends State<HomePage> {
                               startingDayOfWeek: StartingDayOfWeek.monday,
                               onDaySelected: (date, events, holidays) {
                                 setState(() {
-                                  _selectedEvents = events;
+                                  _selectedEvents = events.isEmpty
+                                      ? [
+                                          EventModel(
+                                              title: "No Events",
+                                              description: "")
+                                        ]
+                                      : events;
                                 });
                               },
                               builders: CalendarBuilders(
